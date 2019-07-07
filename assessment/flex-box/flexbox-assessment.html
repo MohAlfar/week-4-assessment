@@ -41,11 +41,29 @@
 
     /* Your code starts here */
     /* CODE AREA */
-    .container {}
+    .container {
+      display: flex;
 
-    .content {}
+    }
 
-    .leftbar {}
+    .content {
+      display: flex;
+  /*    flex-direction: row-reverse;
+      height: 50%;*/
+      
+      width: 800px;
+
+
+    }
+
+    .rightbar{
+      order: -1;
+    width: 800px;
+    }
+
+    .leftbar {
+      width: 800px;
+    }
 
     /* END CODE AREA */
   </style>
@@ -53,7 +71,7 @@
 
 <body class="body">
   <header>
-    <p>This is the Header</p>
+    <p style="width: 200px">This is the Header</p>
   </header>
   <div class="container">
     <div class="content">
